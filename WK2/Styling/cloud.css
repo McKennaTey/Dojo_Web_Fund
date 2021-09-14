@@ -1,0 +1,33 @@
+.mycloud{
+    color: whitesmoke;
+    background-color: black;
+    height: 70px;
+    padding: 15px;
+    margin: 10px;
+    font-family: cursive;
+}
+
+
+.completed{
+    color: whitesmoke;
+    background-color: purple;
+    height: 70px;
+    font-family: cursive;
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+.contact{
+    color: black;
+    background-color: cornflowerblue;
+    height: 70px;
+    text-decoration: underline;
+    text-align: right;
+    font-family: cursive;
+    padding: 15px;
+    margin: 10px;
+}
+

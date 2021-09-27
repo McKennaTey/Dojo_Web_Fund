@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#navigation {
+    margin: 0 auto;
+}
+
+.navbar{
+    display:flex;
+    padding: 10px;
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navtitle {
+    color: whitesmoke;
+    margin-left: 25px;
+}
+
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    width: 50%;
+}
+
+a {
+    text-decoration:none;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+.btn{
+    background-color:cadetblue;
+    color: whitesmoke;
+    padding: 5px;
+    box-shadow: 1px 1px 1px;
+    display: flex;
+    justify-self: flex-end;
+}
+
+#container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+}
+
+
+.col, .col-2 {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+.col {
+    flex: 2;
+}
+
+.profiletop{
+    background-color:rgb(63, 164, 246);
+    border: 2px grey;
+    display: flex;
+    height: 100px;
+    padding: 3px;
+    margin-top: 5px;
+}  
+
+.profilename{
+    margin-top: 5px;
+}
+.profilepic{
+        border-radius: 50%;
+        background-color: #fff;
+        height: 100px;
+        padding: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+}
+
+.profilebody{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    padding 20px;
+}
+
+.icon{
+    color: black;
+    height: 30px;
+    padding: 5px;
+}
+
+.edit{
+    color:blue;
+}
+
+.ed-card{
+    background-color: grey;
+}
+
+.ed-body{
+    background-color:white;
+    border: 2px solid #999;
+}
+
+.date{
+    color: grey;
+}
+
+.connect-card{
+    background-color: grey;
+    border: 2px solid #999;
+}
+
+.connect-body{
+    background-color:white;
+    border: 10px solid #999;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.connections {
+    background-color: #eee;
+    color: #333;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 20px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+
+.todd{
+    display: flex;
+}
+
+.phill{
+    display: flex;
+}
+
+.iconpic{
+    height: 45px;
+    padding: 5px;
+}
+
+.adrian{
+    display: flex;
+}
+
+.anne{
+    display: flex;
+}
+
+.alayne{
+    display: flex;
+}
+
+.arry{
+    display: flex;
+}
+
+.viewmore{
+    background-color:white;
+    border: 2px solid #999;
+    color: blue;
+    
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Network</h1>
+    </div>
+    <div class="nav-2">
+        <h1 class="nav-title">Your Feed</h1>
+    </div>
+    <div class="row">
+        <div class="col-1">
+            <div id="container">
+                <div class="profile">
+                    <img src="user-circle.png" alt="mock profile pic" id="picture">
+                    <a> Add A Profile Picture</a>
+                    <h2>Gurrrlss</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div id="container">
+                <div id="user_card">
+                    <div class="topcard">
+                        <h4>Cyndi Lauper</h4>
+                        <p><span id="countnum">0</span> Like (s) </p>
+                        <button class="btn" onclick="addlikes()">Likes</button>
+                    </div>
+                    <p>Evrrryyyyyobdy, <a>guuurrrlss</a> just wanna have fun</p>
+                </div>
+            </div>
+            <div id="container">
+                <div id="user_card">
+                    <div class="topcard">
+                        <h4>Taylor Swift</h4>
+                        <p><span id="taylikes">0</span> Like (s) </p>
+                        <button class="btn" onclick="pluslikes()">Likes</button>
+                    </div>
+                    <p>Deeaaarrr Johnnnnn, <a>all you're</a> ever gonna be is mean</p>
+                </div>
+            </div>
+            <div id="container">
+                <div id="user_card">
+                    <div class="topcard">
+                        <h4>Brittnay Spears</h4>
+                        <p><span id="brittlikes">0</span> Like (s) </p>
+                        <button class="btn" onclick="addinglikes()">Likes</button>
+                    </div>
+                    <p>Toxxxxiiic, <a>hiiitt</a> me babyyy one moreee time</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="action.js"></script>
+</body>
+</html>
